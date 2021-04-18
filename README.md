@@ -115,7 +115,8 @@ Now that the classifier is ready, let's see how to take a random input data poin
 the output. Let's define one such data point:
 ```
 # Predict output for a test datapoint
-input_data = ['37', 'Private', '215646', 'HS-grad', '9', 'Never-married', 'Handlers-cleaners', 'Not-in-family', 'White', 'Male', '0', '0', '40', 'United-States']
+input_data = ['37', 'Private', '215646', 'HS-grad', '9', 'Never-married', 'Handlers-cleaners', 
+'Not-in-family', 'White', 'Male', '0', '0', '40', 'United-States']
 ```
 
 Before we can perform prediction, we need to encode this data point using the label
